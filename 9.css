@@ -70,7 +70,16 @@ footer {
 @media screen and (max-width: 768px) {
   main {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    margin: 0 0% 20px 5%;
+ }
+
+ .step-box {
+   width: 90%;
+   margin: 0 0% 20px 5%;
+ }
+
+ .step-box:last-child {
+   margin-bottom: 0;
  }
 }
